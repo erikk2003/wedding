@@ -609,7 +609,7 @@ body {
         padding-right: 15px;
     }
 .couple img{
-    height: min-content;
+    height: auto;
 }
 .hero{ 
     height: auto; 
