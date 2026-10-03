@@ -12,7 +12,7 @@ form.addEventListener("submit", function (e) {
     document.getElementById("attendance").value,
   );
   formData.append("guests", document.getElementById("guests").value);
-
+  formData.append("side", document.getElementById("side").value);
   const iframe = document.createElement("iframe");
   iframe.name = "hidden_iframe";
   iframe.style.display = "none";
